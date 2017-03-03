@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.crmall.readcss.MainActivity">
+
+    <com.crmall.styleparse.UI.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Default"
+        android:layout_margin="3dp"
+        app:id="button_default"
+        app:styleClass="btn btn-default"
+        />
+
+    <com.crmall.styleparse.UI.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primary"
+        android:layout_margin="3dp"
+        app:id="button_primary"
+        app:styleClass="btn btn-primary"
+        />
+
+    <com.crmall.styleparse.UI.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Success"
+        app:id="button_success"
+        app:styleClass="btn btn-success"
+        />
+
+    <com.crmall.styleparse.UI.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Info"
+        app:id="button_info"
+        app:styleClass="btn btn-info"
+        />
+
+    <com.crmall.styleparse.UI.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Warning"
+        app:id="button_warning"
+        app:styleClass="btn btn-warning"
+        />
+
+    <com.crmall.styleparse.UI.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Danger"
+        app:id="button_danger"
+        app:styleClass="btn btn-danger"
+        />
+
+    <com.crmall.styleparse.UI.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Link"
+        app:id="button_link"
+        app:styleClass="btn btn-link"
+        />
+</LinearLayout>
